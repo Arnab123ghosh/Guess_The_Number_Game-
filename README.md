@@ -1,6 +1,18 @@
 
 // Project :- Guess_The_Number_Game
 
+
+
+
+
+
+
+
+
+
+
+
+
 #include<stdio.h>
 #include<stdlib.h>   
 #include<time.h>
@@ -10,7 +22,6 @@ int main()  {
     srand(time(0));
     number = rand()%100 + 1;       
     printf("The number is %d\n", number);
-
     
     do
     {
